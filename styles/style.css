@@ -262,6 +262,63 @@ h4{
      }
 
 /* end main settings */
+
+
+
+/* header */
+header{
+    z-index: 99;
+    position: sticky;
+    background-color: #f4f4ef;
+}
+header svg{
+    position: absolute;
+    z-index: 0;
+    
+}
+
+.header_full{
+    max-width: 1232px;
+    padding: 0 1em;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    gap: 2em;
+    z-index: 8;
+    position: relative;
+}
+.header_full ul{
+    padding-inline-start: 0px;
+    list-style-type: none;
+    display: flex;
+    gap: 1em;
+    z-index: 4;
+    
+}
+
+.header_full h2{
+    color: var(--primary);
+}
+.header_full a{
+    text-decoration: none;
+    color: var(--dark);
+    font-weight: 600;
+    font-size: 16px;
+}
+.header_full a:hover{
+    color: var(--primary);
+}
+@media screen and (min-width: 1000px) {
+    header svg{
+        position: absolute;
+        z-index: 0;
+        margin-top: -20px;
+        
+    }
+}
+/*End of header */
+
+/*Begin hero*/
 .hero-wrapper{
     background: var(--main);
     padding: 2em 0;
@@ -359,5 +416,4 @@ h4{
         display: none;
     }
 }
-
-
+/*End of hero*/
