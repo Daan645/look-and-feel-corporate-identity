@@ -262,3 +262,85 @@ h4{
      }
 
 /* end main settings */
+
+.general-article {
+    padding: 5px;
+}
+
+.general-article h2 {
+    color: var(--dark);
+}
+
+.general-article h4 {
+    color: var(--primary);
+    margin-top: -10px;
+}
+
+.article-container {
+    display: flex;
+    overflow-x: auto;
+    word-break: keep-all;
+    white-space: nowrap;
+    padding-bottom: 20px;
+    padding-top: 5px;
+
+     /* For Webkit browsers (Chrome, Safari) */
+     &::-webkit-scrollbar {
+        max-width: 1px;
+        max-height: 12px; /* Vaste hoogte */
+
+    }
+
+    &::-webkit-scrollbar-thumb {
+        background-color: var(--primary);
+        border-radius: 5px;
+    }
+
+    &::-webkit-scrollbar-track {
+        background-color: var(--main);
+    }
+}
+
+.article-box {
+    height: 320px;
+    max-width: 275px;
+    min-width: 275px;
+    background-color: var(--main);
+    box-shadow: 0 1px 5px var(--dark);
+    margin: 10px;
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 8px;
+    transform: translateY(10px);
+    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+}
+
+.article-details {
+    text-align: center;
+}
+
+.article-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    margin-top: 20px;
+}
+
+.article-details h3 {
+    color: var(--primary);
+    margin-bottom: 30px;
+}
+
+.article-details p {
+    color: var(--secondary);
+    margin-bottom: 7px;
+}
+
+.rating-star {
+    color: #f39c12;
+}
+
+.article-box:hover {
+    transform: scale(1.05);
+}
