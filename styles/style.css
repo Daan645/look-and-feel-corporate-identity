@@ -263,9 +263,11 @@ h4{
 /* end main settings */
 /* header */
 header{
+    padding: 1.5em 0em 0em 0em;
     z-index: 99;
     position: sticky;
-    background-color: #f4f4ef;
+    background-color: #f7f7f3;
+    top: 0;
 }
 header svg{
     position: absolute;
@@ -289,6 +291,7 @@ header svg{
     display: flex;
     gap: 1em;
     z-index: 4;
+    margin-top: -1.2em;
     
 }
 
@@ -317,7 +320,7 @@ header svg{
 /*Begin hero*/
 .hero-wrapper{
     background: var(--main);
-    padding: 2em 0;
+    padding: 8em 2em 0;
 }
 
 .hero-wrapper section{
@@ -333,6 +336,9 @@ header svg{
 .hero-wrapper button{
     margin: 0 0 10px 10px;
 }
+.hero-wrapper .primary--button{
+    margin: 0 0 10px 2em;
+}
 .text-hero{
     z-index: 1;
 }
@@ -344,12 +350,12 @@ header svg{
 .text-hero h2{
     color: var(--secondary);
     border-bottom: 0.2em solid var(--primary);
-    margin: 0;
+   
 }
 
 .text-hero p{
     line-height: 1.5;
-    padding: 0 0 10px 10px;
+    padding: 0 0 10px 2em;
 }
 
 .img-hero{
@@ -400,7 +406,9 @@ header svg{
         align-items: center;
         gap: 1em;
     }
-
+    .hero-wrapper{
+        padding: 4em 0em 0;
+    }
     .img-hero{
         margin: 0 auto;
     }
@@ -419,7 +427,8 @@ header svg{
 .wrapper {
     /*margin: 2em 1em;*/
     width: 100%;
-    margin-top: 250px;
+    padding: 2em 0em;
+    margin: 0 auto;
 }
 
 .timelinetitle > h2{
@@ -682,6 +691,11 @@ header svg{
 }
 /*Ending of timeline*/
 /*Begin of reviews*/
+.article-wrapper{
+    max-width: 1220px;
+    margin: 0 auto;
+    padding: 2em 0em;
+}
 .general-article {
     padding: 5px;
 }
@@ -750,6 +764,13 @@ header svg{
     color: var(--primary);
     margin-bottom: 30px;
 }
+    .content, h2{
+        margin-top: 0;
+        margin-bottom: 1.2em;
+    }
+    .article-wrapper{
+        padding: 1em 1em;
+    }
 
 .article-details p {
     color: var(--secondary);
