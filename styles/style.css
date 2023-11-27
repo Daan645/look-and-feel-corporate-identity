@@ -307,6 +307,7 @@ h4{
             border: none;
             border-bottom: 2px solid var(--primary);
             text-align: center;
+            background-color: var(--greyone);
         }
 
         & button {
