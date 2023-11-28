@@ -311,7 +311,7 @@ header svg{
     header svg{
         position: absolute;
         z-index: 0;
-        margin-top: -20px;
+        margin-top: -34px;
         
     }
 }
@@ -350,6 +350,7 @@ header svg{
 .text-hero h2{
     color: var(--secondary);
     border-bottom: 0.2em solid var(--primary);
+    margin-bottom: 2.3em;
    
 }
 
@@ -639,12 +640,12 @@ header svg{
     border-radius: 6px;
 }
 
-.content, h2{
+.content > h2{
     margin-top: 0;
     margin-bottom: 0;
 }
 
-.content, p{
+.content > p{
     margin-top: 5px;
     margin-bottom: 30px;
 }
@@ -791,8 +792,11 @@ header svg{
 
 @media  screen and (min-width: 1002px) {
     /* TEST */
+    .contact-wrapper{
+        background-color: var(--greyone);
+    }
     section.contact--pagina {
-        padding-top: 2em;
+        padding: 2em 2em 2em 2em;
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: auto;
@@ -801,7 +805,11 @@ header svg{
         ;
         justify-content: center;
         text-align: center;
-        background-color: var(--greyone);
+        max-width: 1232px;
+        margin: 0 auto;
+        height: max-content;
+        align-items: start;
+        
     }
 
     form {
@@ -859,6 +867,7 @@ header svg{
 @media  screen and (min-width: 0px) and (max-width: 600px ) {
     
     section.contact--pagina {
+        max-width: 100%;
         margin: 20px;
         display: flex;
         flex-direction: row;
@@ -953,4 +962,68 @@ header svg{
         }
     }
 
+/* footer */
+footer{
+    background-color: var(--secondary);
+    padding: 1em 2em  0em;
+}
+
+footer .content-footer{
+    max-width: 1232px;
+    margin: 0 auto;
+    display: flex;
+    padding: 0em 1em;
+    gap: 32px;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+.content-footer > h3 {
+    color: var(--main);
+}
+.content-footer > p {
+    color: var(--main);
     
+}
+.content-footer ul{
+    padding-inline-start: 0px;
+    list-style-type: none;
+    display: flex;
+    gap: 1em;
+   
+}
+.content-footer  a{
+    text-decoration: none;
+    color: var(--main);
+    font-weight: 600;
+    font-size: 16px;
+}
+.content-footer  a:hover{
+    color: var(--greyone);
+}
+
+@media  screen and (min-width: 0px) and (max-width: 600px ) {
+    footer{
+        
+        height: max-content;
+    }
+    
+    footer .content-footer{
+        display: flex;
+        flex-direction: column;
+        padding: 0em 1em;
+        gap: 0.3em;
+        align-items: center;
+    
+    }
+    .content-footer h3{
+        color: var(--main);
+    }
+    .content-footer ul{
+        padding-inline-start: 0px;
+        list-style-type: none;
+        display: flex;
+        gap: 1em;
+       
+    }
+}
