@@ -19,46 +19,7 @@ body{
     --greyone: #FAF8F8;
     --dark: #000;
 }
-/* text styles */
 
-/* normal p */
-p{
-    font-size: 1em;
-    font-weight: 400;
-}
-/* strong p */
-.strong{
-    font-size: 1em;
-    font-weight: 600;
-}
-/* quote p */
-.quote{
-    font-size: 1.4em;
-    font-weight: 700;
-    font-style: italic;
-}
-/* italic p */
-.italic{
-    font-style: italic;
-}
-
-/* main fonts */
-h1{
-    font-size: 52px;
-    font-weight: 800;
-}
-h2{
-    font-size: 42px;
-    font-weight: 700;
-}
-h3{
-    font-size: 34px;
-    font-weight: 600;
-}
-h4{
-    font-size: 24px;
-    font-weight: 500;
-}
 /* mobile */
 @media  screen and (min-width: 0px) and (max-width: 600px ) {
 h1{
