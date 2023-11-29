@@ -319,11 +319,12 @@ header svg{
 /*End of header */
 
 /*Begin hero*/
+/* wrapper width */
 .hero-wrapper{
     background: var(--main);
     padding: 2em 0;
 }
-
+/* properties for the entire section */
 .hero-wrapper section{
    display: flex;
    max-width: 1232px;
@@ -333,34 +334,39 @@ header svg{
    justify-content: space-between;
    background-color: var(--main);
 }
-
+/* button styling */
 .hero-wrapper button{
     margin: 0 0 10px 10px;
 }
-
-
+/* all text of the hero */
+.text-hero{
+    z-index: 1;
+}
+/* h1 styling in the text-hero */
 .text-hero h1{
     margin: 0;
 }
-  
+/* h2 styling in the text-hero */  
 .text-hero h2{
     color: var(--secondary);
     border-bottom: 0.2em solid var(--primary);
     margin: 0;
 }
-
+/* p styling in the text-hero */
 .text-hero p{
     line-height: 1.5;
     padding: 0 0 10px 10px;
 }
-
-
-
+/* img-hero div styling */
+.img-hero{
+    z-index: 1;
+}
+/* giving the img in the img-hero a different format */
 .img-hero img{
     width: 400px;
     z-index: 1;
 }
-
+/* background styling for the entire hero */
 .polygon{
     clip-path: polygon(0% 0%, 75% 0%, 100% 0, 79% 100%, 0% 100%);
     background-color: var(--greyone);
@@ -370,7 +376,6 @@ header svg{
     min-width: 50%;
     max-width: 100%;
     border-radius: 0px 21px 21px 0px;
-    z-index: -1;
 }
 
 /* tablet hero */
@@ -388,6 +393,7 @@ header svg{
     .img-hero img{
         height: 400px;
     }
+
     .polygon{
         display: none;
     }
@@ -409,6 +415,7 @@ header svg{
     .img-hero img{
         height: 400px;
     }
+
     .polygon{
         display: none;
     }
