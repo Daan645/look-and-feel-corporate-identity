@@ -337,9 +337,7 @@ header svg{
 .hero-wrapper button{
     margin: 0 0 10px 10px;
 }
-.text-hero{
-    z-index: 1;
-}
+
 
 .text-hero h1{
     margin: 0;
@@ -356,9 +354,7 @@ header svg{
     padding: 0 0 10px 10px;
 }
 
-.img-hero{
-    z-index: 1;
-}
+
 
 .img-hero img{
     width: 400px;
@@ -374,6 +370,7 @@ header svg{
     min-width: 50%;
     max-width: 100%;
     border-radius: 0px 21px 21px 0px;
+    z-index: -1;
 }
 
 /* tablet hero */
