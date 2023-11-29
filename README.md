@@ -18,7 +18,7 @@ We gebruiken links voor alles dat een link is binnen de website, hierdoor waarbo
 ### Gebruik van buttons en links
 In de Main Settings van de css staan voor gecodeerde stukken (buttons, fonts en kleuren). Deze moet je gebruiken waar nodig, en mogen alleen met samenspraak veranderd worden.
 ### Content Website 
-De content op de website mag een maximale breedte van 1220px krijgen, backgrounds mogen evt wel over volledige breedte, net zoals de header in footer (de content moet wel binnen de 1220px blijven). 
+De content op de website mag een maximale breedte van 1232px krijgen met 1em padding aan de zijkanten, backgrounds mogen evt wel over volledige breedte, net zoals de header in footer (de content moet wel binnen de 1220px blijven). 
 
 ### Opleveren stukken site
 Lever pas stukken op wanneer het echt af is, en check het design. Het moet 1 op 1 zijn.
