@@ -826,8 +826,8 @@ header svg{
         }
 
         & input.input-contact {
-            width: 50%;
-            padding: 10px;
+            width: 100%;
+            padding: 20px;
             margin-bottom: 20px;
             margin: 20px 0 30px 0;
             border: none;
@@ -838,13 +838,13 @@ header svg{
 
         & button {
             position: relative;
-            width: 50%;
+            width: 106%;
             top: 1em;
         }
     }
 
     figure > img {
-        width: 70%;
+        width: 90%;
         height: 70%;
         margin-left: 100px;
         object-fit: contain;
@@ -891,7 +891,7 @@ header svg{
         }
 
         & input.input-contact {
-            width: 100%;
+            width: 90%;
             padding: 12px 20px;
             margin: 10px 0 30px 0;
             border: none;
@@ -900,8 +900,8 @@ header svg{
         }
 
         & button{
-            width: 100%;
-            margin-bottom: 70px;
+            width: 101%;
+            margin-bottom: 20px;
         }
     }
 
@@ -950,14 +950,14 @@ header svg{
             }
 
             & button {
-                width: 100%;
-                margin-bottom: 70px;
+                width: 103%;
+                margin-bottom: 50px;
             }
         }
 
         figure > img {
             width: 70%;
-            height: 70%;
+            height: 80%;
             margin-left: 100px;
         }
     }
