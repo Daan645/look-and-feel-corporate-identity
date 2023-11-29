@@ -500,7 +500,7 @@ header svg{
 
 .timelinebox:hover {
     /*animation: grow 5s infinite alternate;*/
-    transform: scale(1.5);
+    /*transform: scale(1.5);*/
 }
 
 .timelinebox:hover::after {
